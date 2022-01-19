@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tarsi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-01-27 03:05:55 "/>
+        <attribute name="created" value="dGFyc2k7REVTS1RPUC1WMkNKTjgxOzIwMjEtMDEtMjc7IjAyOjUwOjQ4ICI7Mjc3OQ=="/>
+        <attribute name="edited" value="dGFyc2k7REVTS1RPUC1WMkNKTjgxOzIwMjEtMDEtMjc7IjAzOjA1OjU1ICI7MTsyODg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="janeiro, fevereiro, marco, abril, media" type="Integer" array="False" size=""/>
+            <input variable="janeiro"/>
+            <input variable="fevereiro"/>
+            <input variable="marco"/>
+            <input variable="abril"/>
+            <assign variable="media" expression="(janeiro+fevereiro+marco+abril)/4"/>
+            <if expression="media&gt;5000">
+                <then>
+                    <output expression="&quot;Parab&#233;ns sua media foi maior que 5000 voc&#234; recebera 10% de comiss&#227;o&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente voc&#234; sua media n&#227;o atingiu o esperado, por&#233;m voc&#234; ira receber 3% de comiss&#227;o&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

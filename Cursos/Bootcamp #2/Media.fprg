@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="tarsi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-01-27 02:21:15 "/>
+        <attribute name="created" value="dGFyc2k7REVTS1RPUC1WMkNKTjgxOzIwMjEtMDEtMjc7IjAyOjA2OjIyICI7Mjc3Mg=="/>
+        <attribute name="edited" value="dGFyc2k7REVTS1RPUC1WMkNKTjgxOzIwMjEtMDEtMjc7IjAyOjIxOjE1ICI7MTsyODc5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nt1, nt2, nt3, nt4, media, soma" type="Real" array="False" size=""/>
+            <input variable="nt1"/>
+            <input variable="nt2"/>
+            <input variable="nt3"/>
+            <input variable="nt4"/>
+            <assign variable="soma" expression="(nt1+nt2+nt3+nt4)"/>
+            <assign variable="media" expression="(nt1+nt2+nt3+nt4)/4"/>
+            <output expression="soma" newline="True"/>
+            <output expression="media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
